@@ -195,6 +195,7 @@ person_urls.each do |a|
             image: image,
             source: person_url,
             term: term,
+            district: district,
         }
 
         ScraperWiki.save_sqlite([:id], data)
